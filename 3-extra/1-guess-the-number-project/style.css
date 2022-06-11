@@ -3,12 +3,13 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: rgba(172, 219, 107, 0.77);
   display: block;
   border-style: solid;
+  border-radius: 20%;
   border-color: green;
   margin-top: 150px;
-  width: 50%;
+  width: 60%;
 }
 
 .center {
@@ -20,4 +21,13 @@ body {
 
 .btn {
   margin-bottom: 20px;
+}
+
+.game-title {
+  color: rgb(7, 74, 43);
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 600;
+  margin-bottom: 8%;
 }
